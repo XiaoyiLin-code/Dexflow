@@ -1,0 +1,18 @@
+retargeting:
+  type: position
+  urdf_path: allegro_hand/allegro_hand_right.urdf
+
+  target_joint_names: null
+  target_link_names: [ "link_15.0_tip", "link_3.0_tip", "link_7.0_tip", "link_11.0_tip",
+                       "link_2.0", "link_6.0", "link_10.0","link_0.0", "link_4.0", "link_8.0","link_12.0" ]
+
+  target_joint_names: [ 'dummy_x_translation_joint', 'dummy_y_translation_joint', 
+                        'dummy_z_translation_joint','dummy_x_rotation_joint', 'dummy_y_rotation_joint', 'dummy_z_rotation_joint', 
+                        'joint_0.0', 'joint_1.0', 'joint_2.0', 'joint_3.0', 'joint_4.0', 'joint_5.0', 'joint_6.0', 'joint_7.0', 'joint_8.0', 'joint_9.0', 'joint_10.0', 'joint_11.0', 
+                        'joint_12.0','joint_13.0', 'joint_14.0','joint_15.0']
+  target_link_human_indices: [ 4, 8, 12, 16, 6, 10, 14, 5, 9, 13,17 ]
+  add_dummy_free_joint: True
+
+  # A smaller alpha means stronger filtering, i.e. more smooth but also larger latency
+  # 1 means no filter while 0 means not moving
+  low_pass_alpha: 1

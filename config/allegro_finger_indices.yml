@@ -1,0 +1,21 @@
+finger_joints_indices:
+  ff:
+    - 6   # FFJ4
+    - 7   # FFJ3
+    - 8   # FFJ2
+    - 9   # FFJ1
+  mf:
+    - 10  # MFJ4
+    - 11  # MFJ3
+    - 12  # MFJ2
+    - 13  # MFJ1
+  rf:
+    - 14  # RFJ4
+    - 15  # RFJ3
+    - 16  # RFJ2
+    - 17  # RFJ1
+  th:
+    - 18  # LFJ5
+    - 19  # LFJ4
+    - 20  # LFJ3
+    - 21  # LFJ2
